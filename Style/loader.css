@@ -1,0 +1,19 @@
+.icon-spinner {
+  transition: all 2s;
+  visibility: visible;
+  font-size: 100px;
+  position: relative;
+}
+
+.spinCustom {
+  position: absolute;
+  left: 6rem;
+  top: 3.5rem;
+}
+
+.icon-noshow {
+  transition: all 2s;
+  visibility: hidden;
+  font-size: 100px;
+  position: relative;
+}
