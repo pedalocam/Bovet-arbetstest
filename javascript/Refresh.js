@@ -21,8 +21,8 @@ function loadNewData() {
   count = 0;
   $.getJSON('https://api.unsplash.com/photos/random/?client_id=3db5ef77cc15f221119e4d4bde44a68b4cc1d1a36ba0a1955b5d120a37c94c58', {
     count: numItemsToGenerate,
-    w: 270,
-    h: 210
+    w: 200,
+    h: 160
   }, function (data) {
     count = 0;
     $.each($("img"), function () {
