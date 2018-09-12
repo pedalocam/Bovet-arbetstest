@@ -6,8 +6,8 @@ var spinner = "wrap spinner";
 
 function renderGalleryItems() {
   $.getJSON('https://api.unsplash.com/photos/random/?client_id=44d8e2275ffe6d074c3c14247cf641cdeebc10b09263b029f6865f9e49415181', {
-    w: 270,
-    h: 210
+    w: 200,
+    h: 160
   }, function (data) {
     var name = data.user.name;
     var bio = "";
@@ -22,5 +22,3 @@ function renderGalleryItems() {
     $('.flex-row').append(htmlMarkup);
   });
 }
-
-//<div class="fas fa-spinner fa-spin loader" style="font-size: 100px;"></div>
