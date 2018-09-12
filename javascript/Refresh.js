@@ -19,7 +19,7 @@ function refreshGalleryItems(randomImageIndex) {
 
 function loadNewData() {
   count = 0;
-  $.getJSON('https://api.unsplash.com/photos/random/?client_id=3db5ef77cc15f221119e4d4bde44a68b4cc1d1a36ba0a1955b5d120a37c94c58', {
+  $.getJSON('https://api.unsplash.com/photos/random/?client_id=1270bd66ea667e70429d6e41f6955f15379b814cfe879e068a4d48dacbe192d3', {
     count: numItemsToGenerate,
     w: 200,
     h: 160
